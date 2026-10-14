@@ -24,7 +24,6 @@ keywords:
   - reproducibility
 repository-code: "https://github.com/baz2024/rayachain-canary-artifact"
 doi: "10.5281/zenodo.23354588"  # concept DOI (all versions); v0.8-r1 is 10.5281/zenodo.23354589
-# doi: TBC (Zenodo DOI, after the first release)
 preferred-citation:
   type: article
   title: "RayaChain: An Omnichain Canary Layer for Cross-Chain Risk and Credit Signal Propagation in Decentralized Agentic Finance"
