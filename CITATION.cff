@@ -22,7 +22,8 @@ keywords:
   - risk intelligence
   - decentralized validation
   - reproducibility
-# repository-code: TBC (public repository URL, after the authors create it)
+repository-code: "https://github.com/baz2024/rayachain-canary-artifact"
+doi: "10.5281/zenodo.23354588"  # concept DOI (all versions); v0.8-r1 is 10.5281/zenodo.23354589
 # doi: TBC (Zenodo DOI, after the first release)
 preferred-citation:
   type: article

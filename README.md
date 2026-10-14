@@ -90,6 +90,7 @@ byte-for-byte identical to the committed versions.
 
 ## Citation
 
-See `CITATION.cff` (and `.zenodo.json` for archiving). The repository URL and
-DOI will be added after the authors create the public repository and the first
-Zenodo release.
+See `CITATION.cff` (and `.zenodo.json` for archiving). Repository:
+<https://github.com/baz2024/rayachain-canary-artifact>. Archived on Zenodo:
+[10.5281/zenodo.23354588](https://doi.org/10.5281/zenodo.23354588) (all versions;
+v0.8-r1 is [10.5281/zenodo.23354589](https://doi.org/10.5281/zenodo.23354589)).
