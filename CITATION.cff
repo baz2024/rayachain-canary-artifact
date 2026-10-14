@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it and the accompanying article."
+title: "rayachain-canary-artifact: code and data for 'RayaChain: An Omnichain Canary Layer for Cross-Chain Risk and Credit Signal Propagation in Decentralized Agentic Finance'"
+type: software
+version: "0.8-r1"
+date-released: "2026-10-14"
+license: Apache-2.0
+authors:
+  - family-names: Magableh
+    given-names: Basel
+    affiliation: "School of Computer Science, Technological University Dublin, Dublin, Ireland"
+    orcid: "https://orcid.org/0000-0003-2337-637X"
+    email: basel.magableh@tudublin.ie
+  - family-names: Alghuried
+    given-names: Ahod
+    affiliation: "College of Computer Engineering and Sciences, Prince Sattam bin Abdulaziz University, Al-Kharj, Saudi Arabia"
+    # ORCID: TBC (to be confirmed by the co-author before release)
+keywords:
+  - blockchain
+  - cross-chain interoperability
+  - CAIP-10
+  - risk intelligence
+  - decentralized validation
+  - reproducibility
+# repository-code: TBC (public repository URL, after the authors create it)
+# doi: TBC (Zenodo DOI, after the first release)
+preferred-citation:
+  type: article
+  title: "RayaChain: An Omnichain Canary Layer for Cross-Chain Risk and Credit Signal Propagation in Decentralized Agentic Finance"
+  authors:
+    - family-names: Magableh
+      given-names: Basel
+      orcid: "https://orcid.org/0000-0003-2337-637X"
+    - family-names: Alghuried
+      given-names: Ahod
+  journal: "Computer Systems Science and Engineering"
+  year: 2026
+  notes: "Under review (first revision). Update with volume, pages and DOI on publication."

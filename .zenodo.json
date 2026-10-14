@@ -1,0 +1,21 @@
+{
+  "title": "rayachain-canary-artifact: code and data for the RayaChain omnichain canary-layer paper",
+  "upload_type": "software",
+  "version": "0.8-r1",
+  "description": "Reproducibility artifact for 'RayaChain: An Omnichain Canary Layer for Cross-Chain Risk and Credit Signal Propagation in Decentralized Agentic Finance'. Contains an offline reference encoder for the CAIP-10-based CanarySignal v1 envelope, a synthetic sensitivity analysis of the validator-loss weights, their outputs, protocols (not yet run) for a LayerZero test-network experiment and a historical exploit replay, and a redacted engineering report of a retired testnet run. All results are offline or synthetic; no live or predictive measurements are included. Code: Apache-2.0. Data and documents: CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Magableh, Basel",
+      "affiliation": "Technological University Dublin",
+      "orcid": "0000-0003-2337-637X"
+    },
+    {
+      "name": "Alghuried, Ahod",
+      "affiliation": "Prince Sattam bin Abdulaziz University"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": ["blockchain", "cross-chain interoperability", "CAIP-10", "risk intelligence", "decentralized validation", "reproducibility"],
+  "notes": "Data and documentation files are licensed CC BY 4.0 (see LICENSE-data). Co-author ORCID to be added before release.",
+  "access_right": "open"
+}

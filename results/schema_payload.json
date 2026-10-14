@@ -1,0 +1,54 @@
+{
+ "schema": "CanarySignal v1 (offline reference encoder; synthetic inputs)",
+ "fixed_part_bytes": 119,
+ "max_extended_bytes": 332,
+ "legacy_bytes20_schema_bytes_assumed_widths": 77,
+ "examples": {
+  "Ethereum mainnet (EIP-55)": {
+   "caip10_chars": 51,
+   "compact_bytes": 119,
+   "extended_bytes": 180
+  },
+  "Bitcoin mainnet": {
+   "caip10_chars": 74,
+   "compact_bytes": 119,
+   "extended_bytes": 234
+  },
+  "Cosmos Hub": {
+   "caip10_chars": 64,
+   "compact_bytes": 119,
+   "extended_bytes": 203
+  },
+  "Kusama (polkadot namespace)": {
+   "caip10_chars": 90,
+   "compact_bytes": 119,
+   "extended_bytes": 252
+  },
+  "StarkNet testnet": {
+   "caip10_chars": 85,
+   "compact_bytes": 119,
+   "extended_bytes": 224
+  },
+  "Hedera mainnet": {
+   "caip10_chars": 35,
+   "compact_bytes": 119,
+   "extended_bytes": 170
+  },
+  "Solana mainnet": {
+   "caip10_chars": 84,
+   "compact_bytes": 119,
+   "extended_bytes": 244
+  }
+ },
+ "property_test": {
+  "n": 10000,
+  "seed": 7,
+  "roundtrip_ok": 10000,
+  "determinism_ok": 10000
+ },
+ "eip55_case_canonicalisation": {
+  "pairs": 1000,
+  "same_subject_key": 1000
+ },
+ "invalid_ids_rejected": "8/8"
+}

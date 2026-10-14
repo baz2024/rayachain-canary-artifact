@@ -1,0 +1,238 @@
+{
+ "note": "SYNTHETIC simulation; not evidence about real miners or chain events",
+ "n_queries": 1000,
+ "pair_frac": 0.2,
+ "binning": "equal-mass",
+ "seeds": 20,
+ "grid_points": 231,
+ "default_weights": [
+  0.6,
+  0.2,
+  0.2
+ ],
+ "regimes": {
+  "0.01": {
+   "base_rate": 0.01,
+   "mean_events_per_window": 11.45,
+   "component_means_brier_incons_cal": {
+    "A": [
+     0.0074,
+     0.0,
+     0.0019
+    ],
+    "B": [
+     0.0188,
+     0.7589,
+     0.0573
+    ],
+    "C": [
+     0.0113,
+     0.0,
+     0.0072
+    ],
+    "D": [
+     0.0086,
+     0.0,
+     0.0072
+    ],
+    "E": [
+     0.0074,
+     0.0,
+     0.4902
+    ],
+    "F": [
+     0.9784,
+     0.0,
+     0.8901
+    ]
+   },
+   "default_loss_mean_sd": {
+    "A": [
+     0.0048,
+     0.0011
+    ],
+    "B": [
+     0.1745,
+     0.0058
+    ],
+    "C": [
+     0.0082,
+     0.002
+    ],
+    "D": [
+     0.0066,
+     0.0016
+    ],
+    "E": [
+     0.1025,
+     0.0007
+    ],
+    "F": [
+     0.7651,
+     0.0022
+    ]
+   },
+   "default_rankings": {
+    "A > D > C > E > B > F": 17,
+    "A > C > D > E > B > F": 2,
+    "D > A > C > E > B > F": 1
+   },
+   "share_grid_same_full_ranking_as_default": 0.308,
+   "share_grid_A_ranked_first": 0.95,
+   "share_grid_C_beats_A": 0.007,
+   "kendall_tau_vs_default_min_mean": [
+    0.467,
+    0.871
+   ],
+   "min_alpha_A_first_95pct_with_beta_eq_gamma": 0.0
+  },
+  "0.05": {
+   "base_rate": 0.05,
+   "mean_events_per_window": 50.9,
+   "component_means_brier_incons_cal": {
+    "A": [
+     0.0308,
+     0.0,
+     0.0071
+    ],
+    "B": [
+     0.0436,
+     0.7924,
+     0.0527
+    ],
+    "C": [
+     0.0483,
+     0.0,
+     0.0163
+    ],
+    "D": [
+     0.0366,
+     0.0,
+     0.0329
+    ],
+    "E": [
+     0.0308,
+     0.0,
+     0.4574
+    ],
+    "F": [
+     0.906,
+     0.0,
+     0.8572
+    ]
+   },
+   "default_loss_mean_sd": {
+    "A": [
+     0.0199,
+     0.0015
+    ],
+    "B": [
+     0.1952,
+     0.0065
+    ],
+    "C": [
+     0.0322,
+     0.0018
+    ],
+    "D": [
+     0.0285,
+     0.0027
+    ],
+    "E": [
+     0.11,
+     0.0009
+    ],
+    "F": [
+     0.7151,
+     0.0033
+    ]
+   },
+   "default_rankings": {
+    "A > D > C > E > B > F": 19,
+    "A > C > D > E > B > F": 1
+   },
+   "share_grid_same_full_ranking_as_default": 0.204,
+   "share_grid_A_ranked_first": 1.0,
+   "share_grid_C_beats_A": 0.0,
+   "kendall_tau_vs_default_min_mean": [
+    0.467,
+    0.824
+   ],
+   "min_alpha_A_first_95pct_with_beta_eq_gamma": 0.0
+  },
+  "0.2": {
+   "base_rate": 0.2,
+   "mean_events_per_window": 203.05,
+   "component_means_brier_incons_cal": {
+    "A": [
+     0.1073,
+     0.0,
+     0.0207
+    ],
+    "B": [
+     0.122,
+     0.8923,
+     0.0397
+    ],
+    "C": [
+     0.1618,
+     0.0,
+     0.0343
+    ],
+    "D": [
+     0.1287,
+     0.0,
+     0.1429
+    ],
+    "E": [
+     0.1073,
+     0.0,
+     0.3472
+    ],
+    "F": [
+     0.6792,
+     0.0,
+     0.7469
+    ]
+   },
+   "default_loss_mean_sd": {
+    "A": [
+     0.0685,
+     0.004
+    ],
+    "B": [
+     0.2596,
+     0.0055
+    ],
+    "C": [
+     0.104,
+     0.0061
+    ],
+    "D": [
+     0.1058,
+     0.0098
+    ],
+    "E": [
+     0.1338,
+     0.002
+    ],
+    "F": [
+     0.5569,
+     0.0102
+    ]
+   },
+   "default_rankings": {
+    "A > C > D > E > B > F": 13,
+    "A > D > C > E > B > F": 7
+   },
+   "share_grid_same_full_ranking_as_default": 0.195,
+   "share_grid_A_ranked_first": 0.99,
+   "share_grid_C_beats_A": 0.01,
+   "kendall_tau_vs_default_min_mean": [
+    0.2,
+    0.793
+   ],
+   "min_alpha_A_first_95pct_with_beta_eq_gamma": 0.05
+  }
+ }
+}
